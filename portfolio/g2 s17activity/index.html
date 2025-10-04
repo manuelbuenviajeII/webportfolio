@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code & Coffe Co.</title>
+
+    <!-- Bootstrap Link CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navbar (Sir Darwin, Member 1-->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Code & Coffee Co.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End-->
+
+    <!-- Main Container Start -->
+    <div class="container-fluid">
+        <!-- Landing Start -->
+        <div class="row vh-100 d-flex align-items-center justify-content-center pt-5" id="landing">
+            <div class="col-md-4 text-center">
+                <!-- Logo (Sir Darwin, Member 1-->
+                <img src="images/shoplogo.png" width="250">
+            </div>
+            <div class="col-md-8 text-center text-md-start">
+                <h1 class="mb-3">Code & Coffee Co.</h1>
+                <p class="mb-4">
+                    Code & Coffee Co. is where creativity meets caffeine. A cozy hub for developers, designers, and
+                    dreamers, we serve expertly brewed coffee alongside high-speed Wi-Fi and a welcoming workspace.
+                    Whether you're debugging code or brainstorming your next big idea, our café fuels productivity and
+                    connection—one cup at a time.
+                </p>
+                <a href="#projects" class="btn btn-primary btn-lg">Check Out Our Projects!</a>
+            </div>
+        </div>
+        <!-- Landing End -->
+        <!-- Member 1 End -->
+
+        <!-- About Section (Sir Rey - Member 2) -->
+        <div class="row justify-content-center align-items-center p-5 bg-light" id="about">
+            <div class="col-md-5 text-center text-md-start">
+                <h1 class="mb-4">About Us</h1>
+                <h3>Our Mission</h3>
+                <p>To provide a welcoming and inspiring environment where developers, designers, and creators can
+                    connect, collaborate, and caffeinate. We are committed to serving high-quality, ethically sourced
+                    coffee.</p>
+                <h3>Our Vision</h3>
+                <p>To be the hub for the local tech and creative community, fostering innovation one cup at a time.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/shop-interior.jpg" alt="A view of the coffee shop interior"
+                    class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+
+        <!-- Projects Section (Sir Rey, Member 2) -->
+        <div class="row justify-content-center p-5 d-none d-md-block" id="projects">
+            <div class="col-md-8 mx-auto">
+                <h2 class="text-center mb-4">Our Projects</h2>
+                <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded shadow-sm">
+                        <div class="carousel-item active">
+                            <img src="images/signature-drink.jpg" class="d-block w-100" alt="The Compiler Latte">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>The Compiler Latte</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/signature-pastry.jpg" class="d-block w-100" alt="Bug-Free Brownies">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bug-Free Brownies</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/co-working-space.jpg" class="d-block w-100" alt="Hackathon Night Event">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Hackathon Night</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section (Sir. Rey, Member 3) -->
+        <div class="row justify-content-center p-5 bg-light" id="services">
+            <h2 class="text-center mb-4">What We Offer</h2>
+            <!-- Service 1 -->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/artisan-coffee-service.jpg" class="card-img-top" alt="Artisan Coffee">
+                    <div class="card-body">
+                        <h5 class="card-title">Artisan Coffee</h5>
+                        <p class="card-text">Single-origin beans and expert brewing methods. From espresso to pour-over,
+                            taste the difference quality makes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/coworking-space-service.jpg" class="card-img-top" alt="Co-working Space">
+                    <div class="card-body">
+                        <h5 class="card-title">Co-working Space</h5>
+                        <p class="card-text">High-speed Wi-Fi, ample power outlets, and a productive atmosphere. Your
+                            office
+                            away from the office.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-4 shadow-sm">
+                    <img src="images/fresh-pastries-service.jpg" class="card-img-top" alt="Fresh Pastries">
+                    <div class="card-body">
+                        <h5 class="card-title">Freshly Baked Pastries</h5>
+                        <p class="card-text">Delicious, locally-made pastries and snacks to complement your coffee and
+                            keep
+                            you going.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQs Section (Sir Rey, Member 3) -->
+        <div class="row justify-content-center p-5" id="faqs">
+            <div class="col-md-8">
+                <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+                <div class="accordion" id="faqAccordion">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Do you have Wi-Fi and power outlets?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <strong>Absolutely!</strong> We offer free, high-speed Wi-Fi and plenty of power outlets
+                                at
+                                our tables and counters, making it a perfect spot for work or study.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Can I reserve a table or meeting space?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we have a semi-private area that can be reserved for small team meetings or study
+                                groups. Please use our contact form for inquiries and booking.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do you offer vegan or gluten-free options?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We do! We offer a variety of milk alternatives (oat, almond, soy) and have a selection
+                                of
+                                vegan and gluten-free pastries available daily.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Social Start (Sir CRistino, Member 4) -->
+        <div class="row d-flex text-center justify-content-center p-5 bg-light" id="social">
+            <h2 class="my-5">Connect with us!</h2>
+            <div class="col-12">
+                <a href="#"><img src="./images/fb.jpg" width="50" class="img-fluid rounded-circle border me-3"></a>
+                <a href="#"><img src="./images/ig.jpg" width="50" class="img-fluid rounded-circle border me-3"></a>
+                <a href="#"><img src="./images/x.jpg" width="50" class="img-fluid rounded-circle border me-3"></a>
+                <a href="#"><img src="./images/gmail.jpg" width="50" class="img-fluid rounded-circle border"></a>
+            </div>
+        </div>
+
+        <!-- Map Section (Member 4) -->
+        <!-- This comment was not in the provided list, but it's a logical place for it. -->
+        <div class="row p-5" id="map">
+            <div class="col-12 d-flex justify-content-center">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247626.83336437977!2d121.39390252130207!3d14.126140917058075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd53ff6169c819%3A0x8884327e3dad53b9!2sBlack%20Apron%20Coffee!5e0!3m2!1sen!2sph!4v1758889714257!5m2!1sen!2sph"
+                    width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- Contact Section (Member 5) -->
+        <div class="row justify-content-center p-5 bg-light" id="contact"> <!--Contact Start (Sir Rex, Member 5) -->
+            <div class="col-md-6" id="form-col">
+                <h2 class="text-center mb-4">Contact Us</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactNumber" class="form-label">Contact Number</label>
+                        <input type="number" class="form-control" id="contactNumber" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="concern" class="form-label">Concern</label>
+                        <select class="form-select" id="concern" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>Inquiry</option>
+                            <option>Reservation</option>
+                            <option>Feedback</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <!-- <button type="button" class="btn btn-dark me-auto">Send Email</button> -->
+                    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+                    <!-- Modal Trigger Button -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDiv">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+</div> <!-- Main Container End -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalDivLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDivLabel">Message Sent!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thank you for your message. We will get back to you shortly!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
